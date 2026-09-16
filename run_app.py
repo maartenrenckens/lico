@@ -6,6 +6,16 @@ import webbrowser
 import json
 import threading
 import socket
+import requests
+from datetime import datetime, timezone, timedelta
+from packaging.version import Version
+
+from config import (
+    APP_VERSION,
+    UPDATE_CACHE_FILE,
+    UPDATE_CHECK_INTERVAL,
+    GITHUB_RELEASES_URL,
+)
 
 
 app = Flask(__name__)
@@ -17,6 +27,169 @@ TYPESETTING_FILE = os.path.join("data", "typesetting.json")
 PROCESSING_FILE = os.path.join("data", "processed_text.linotype")
 PROCESSING_ERROR_FILE = os.path.join("data", "processing_input_errors.txt")
 CASTING_TRACKING_FILE = os.path.join("data", "casting_tracking.txt")
+
+
+# ---------------------------------------------------------
+# Update mechanism
+# ---------------------------------------------------------
+
+@app.route("/api/update")
+def check_for_update():
+
+    now = datetime.now(timezone.utc)
+
+    # --------------------------------------------------
+    # Read existing cache
+    # --------------------------------------------------
+
+    cache = None
+
+    try:
+
+        if os.path.exists(UPDATE_CACHE_FILE):
+
+            with open(
+                UPDATE_CACHE_FILE,
+                "r",
+                encoding="utf-8"
+            ) as file:
+
+                cache = json.load(file)
+
+    except (OSError, json.JSONDecodeError) as error:
+
+        print(f"Could not read update cache: {error}")
+
+        cache = None
+
+    # --------------------------------------------------
+    # Check whether the cache is still valid
+    # --------------------------------------------------
+
+    if cache and cache.get("checked_at"):
+
+        try:
+
+            checked_at = datetime.fromisoformat(
+                cache["checked_at"]
+            )
+
+            # Make old cache timestamps timezone-aware
+            if checked_at.tzinfo is None:
+                checked_at = checked_at.replace(
+                    tzinfo=timezone.utc
+                )
+
+            cache_age = now - checked_at
+
+            if cache_age < UPDATE_CHECK_INTERVAL:
+
+                # Cache is still valid.
+                # Do NOT contact GitHub.
+
+                return cache
+
+        except (ValueError, TypeError) as error:
+
+            print(
+                f"Invalid update cache timestamp: {error}"
+            )
+
+    # --------------------------------------------------
+    # Cache is missing or older than 48 hours.
+    # Contact GitHub.
+    # --------------------------------------------------
+
+    try:
+
+        response = requests.get(
+            GITHUB_RELEASES_URL,
+            timeout=5,
+            headers={
+                "Accept": "application/vnd.github+json"
+            }
+        )
+
+        response.raise_for_status()
+
+        release = response.json()
+
+        latest_version = release["tag_name"]
+
+        if latest_version.startswith("v"):
+            latest_version = latest_version[1:]
+
+        current_version = Version(APP_VERSION)
+        github_version = Version(latest_version)
+
+        update_available = (
+            github_version > current_version
+        )
+
+        cache = {
+            "update_available": update_available,
+            "current_version": APP_VERSION,
+            "latest_version": latest_version,
+            "url": release.get(
+                "html_url",
+                "https://github.com/maartenrenckens/lico"
+            ),
+            "checked_at": now.isoformat()
+        }
+
+        # --------------------------------------------------
+        # Save new cache
+        # --------------------------------------------------
+
+        os.makedirs(
+            os.path.dirname(UPDATE_CACHE_FILE),
+            exist_ok=True
+        )
+
+        with open(
+            UPDATE_CACHE_FILE,
+            "w",
+            encoding="utf-8"
+        ) as file:
+
+            json.dump(
+                cache,
+                file,
+                indent=4
+            )
+
+        return cache
+
+    # --------------------------------------------------
+    # GitHub check failed
+    # --------------------------------------------------
+
+    except (
+        requests.RequestException,
+        KeyError,
+        TypeError,
+        ValueError
+    ) as error:
+
+        print(
+            f"GitHub update check failed: {error}"
+        )
+
+        # If an old cache exists, return it rather than
+        # making the application appear broken.
+
+        if cache:
+
+            return cache
+
+        return {
+            "update_available": False,
+            "current_version": APP_VERSION,
+            "latest_version": None,
+            "url": None,
+            "checked_at": None,
+            "error": True
+        }
 
 
 # ---------------------------------------------------------
