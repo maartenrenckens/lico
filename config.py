@@ -1,6 +1,6 @@
 APP_NAME = "LiCo"
 APP_DESCRIPTION = "Linotype Computer Connection"
-APP_VERSION = "1.0.1"
+APP_VERSION = "1.0.2"
 
 import os
 from datetime import timedelta
@@ -18,6 +18,7 @@ GITHUB_RELEASES_URL = (
 )
 
 """
-2026_09_16: 1.0.1 installation of the update mechanism
-2026_09_16: 1.0.0 first stable release
+2026_09_16: 1.0.2 Lots of overal refinements
+2026_09_16: 1.0.1 Installation of the update mechanism
+2026_09_16: 1.0.0 First stable release
 """
