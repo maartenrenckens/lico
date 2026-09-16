@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% set active_page = "input" %}
+
+{% block content %}
+
+<div class="page">
+
+	<script src="{{ url_for('static', filename='js/index.js') }}" defer></script>
+
+    <div class="page-toolbar">
+		<button id="index_save_input">
+			Save & next
+		</button>
+    </div>
+
+    <div class="page-content page-content-full">
+        <textarea
+        	id="input_text"
+            class="main-textarea"
+            placeholder="Insert your text here."
+        ></textarea>
+    </div>
+
+</div>
+
+{% endblock %}

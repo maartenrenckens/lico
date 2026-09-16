@@ -1,0 +1,1003 @@
+{
+    "columns": [
+        "nr",
+        "name",
+        "Belgian 14△8606 Helvetica",
+        "Belgian 12△8605 Helvetica",
+        "Belgian 10△8604 Helvetica",
+        "Belgian 8△8602 Helvetica",
+        "Belgian 6△8600 Helvetica"
+    ],
+    "rows": [
+        {
+            "nr": 1,
+            "name": "e",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.8,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 2,
+            "name": "l",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.2,
+                "Belgian 12△8605 Helvetica": 1.1,
+                "Belgian 10△8604 Helvetica": 1.05,
+                "Belgian 8△8602 Helvetica": 0.85,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 3,
+            "name": "a",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.8,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 4,
+            "name": "o",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 5,
+            "name": "i",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.25,
+                "Belgian 12△8605 Helvetica": 1.1,
+                "Belgian 10△8604 Helvetica": 1.1,
+                "Belgian 8△8602 Helvetica": 0.85,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 6,
+            "name": "n",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.85,
+                "Belgian 12△8605 Helvetica": 1.45,
+                "Belgian 10△8604 Helvetica": 2.05,
+                "Belgian 8△8602 Helvetica": 1.65,
+                "Belgian 6△8600 Helvetica": 1.35
+            }
+        },
+        {
+            "nr": 7,
+            "name": "s",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.55,
+                "Belgian 12△8605 Helvetica": 1.2,
+                "Belgian 10△8604 Helvetica": 1.75,
+                "Belgian 8△8602 Helvetica": 1.4,
+                "Belgian 6△8600 Helvetica": 1.2
+            }
+        },
+        {
+            "nr": 8,
+            "name": "d",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.0,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 9,
+            "name": "r",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.85,
+                "Belgian 12△8605 Helvetica": 1.6,
+                "Belgian 10△8604 Helvetica": 1.35,
+                "Belgian 8△8602 Helvetica": 1.1,
+                "Belgian 6△8600 Helvetica": 0.9
+            }
+        },
+        {
+            "nr": 10,
+            "name": "é",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.8,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 11,
+            "name": "t",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.5,
+                "Belgian 12△8605 Helvetica": 1.3,
+                "Belgian 10△8604 Helvetica": 1.25,
+                "Belgian 8△8602 Helvetica": 1.05,
+                "Belgian 6△8600 Helvetica": 0.8
+            }
+        },
+        {
+            "nr": 12,
+            "name": "u",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.85,
+                "Belgian 12△8605 Helvetica": 2.45,
+                "Belgian 10△8604 Helvetica": 2.05,
+                "Belgian 8△8602 Helvetica": 1.65,
+                "Belgian 6△8600 Helvetica": 1.35
+            }
+        },
+        {
+            "nr": 13,
+            "name": "c",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.75,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 14,
+            "name": "m",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 4.3,
+                "Belgian 12△8605 Helvetica": 3.6,
+                "Belgian 10△8604 Helvetica": 3.0,
+                "Belgian 8△8602 Helvetica": 2.4,
+                "Belgian 6△8600 Helvetica": 2.0
+            }
+        },
+        {
+            "nr": 15,
+            "name": "f",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.5,
+                "Belgian 12△8605 Helvetica": 1.3,
+                "Belgian 10△8604 Helvetica": 1.1,
+                "Belgian 8△8602 Helvetica": 0.9,
+                "Belgian 6△8600 Helvetica": 0.8
+            }
+        },
+        {
+            "nr": 16,
+            "name": "h",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.85,
+                "Belgian 12△8605 Helvetica": 2.45,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.65,
+                "Belgian 6△8600 Helvetica": 1.35
+            }
+        },
+        {
+            "nr": 17,
+            "name": "y",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.15,
+                "Belgian 10△8604 Helvetica": 1.8,
+                "Belgian 8△8602 Helvetica": 1.4,
+                "Belgian 6△8600 Helvetica": 1.2
+            }
+        },
+        {
+            "nr": 18,
+            "name": "p",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.55,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 19,
+            "name": "v",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.5,
+                "Belgian 12△8605 Helvetica": 2.15,
+                "Belgian 10△8604 Helvetica": 1.75,
+                "Belgian 8△8602 Helvetica": 1.4,
+                "Belgian 6△8600 Helvetica": 1.2
+            }
+        },
+        {
+            "nr": 20,
+            "name": "b",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 21,
+            "name": "g",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 22,
+            "name": "k",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.7,
+                "Belgian 12△8605 Helvetica": 2.35,
+                "Belgian 10△8604 Helvetica": 1.95,
+                "Belgian 8△8602 Helvetica": 1.55,
+                "Belgian 6△8600 Helvetica": 1.25
+            }
+        },
+        {
+            "nr": 23,
+            "name": "q",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 24,
+            "name": "j",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.4,
+                "Belgian 12△8605 Helvetica": 1.2,
+                "Belgian 10△8604 Helvetica": 1.05,
+                "Belgian 8△8602 Helvetica": 0.8,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 25,
+            "name": "x",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.7,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.9,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.2
+            }
+        },
+        {
+            "nr": 26,
+            "name": "z",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.5,
+                "Belgian 12△8605 Helvetica": 2.15,
+                "Belgian 10△8604 Helvetica": 1.75,
+                "Belgian 8△8602 Helvetica": 1.4,
+                "Belgian 6△8600 Helvetica": 1.2
+            }
+        },
+        {
+            "nr": 27,
+            "name": "Z",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.1,
+                "Belgian 12△8605 Helvetica": 2.65,
+                "Belgian 10△8604 Helvetica": 2.25,
+                "Belgian 8△8602 Helvetica": 1.8,
+                "Belgian 6△8600 Helvetica": 1.45
+            }
+        },
+        {
+            "nr": 28,
+            "name": "K",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.45,
+                "Belgian 12△8605 Helvetica": 2.95,
+                "Belgian 10△8604 Helvetica": 2.45,
+                "Belgian 8△8602 Helvetica": 2.0,
+                "Belgian 6△8600 Helvetica": 1.65
+            }
+        },
+        {
+            "nr": 29,
+            "name": "w",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.85,
+                "Belgian 12△8605 Helvetica": 3.2,
+                "Belgian 10△8604 Helvetica": 2.65,
+                "Belgian 8△8602 Helvetica": 1.25,
+                "Belgian 6△8600 Helvetica": 1.75
+            }
+        },
+        {
+            "nr": 30,
+            "name": "ç",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.75,
+                "Belgian 12△8605 Helvetica": 2.35,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 31,
+            "name": "dotted line",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": null,
+                "Belgian 12△8605 Helvetica": null,
+                "Belgian 10△8604 Helvetica": 4.5,
+                "Belgian 8△8602 Helvetica": 4.5,
+                "Belgian 6△8600 Helvetica": 4.5
+            }
+        },
+        {
+            "nr": 32,
+            "name": "em space",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 5.25,
+                "Belgian 12△8605 Helvetica": 3.5,
+                "Belgian 10△8604 Helvetica": 3.75,
+                "Belgian 8△8602 Helvetica": 3.0,
+                "Belgian 6△8600 Helvetica": 2.25
+            }
+        },
+        {
+            "nr": 33,
+            "name": ",",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.3,
+                "Belgian 12△8605 Helvetica": 1.1,
+                "Belgian 10△8604 Helvetica": 0.95,
+                "Belgian 8△8602 Helvetica": 0.75,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 34,
+            "name": ".",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.3,
+                "Belgian 12△8605 Helvetica": 1.1,
+                "Belgian 10△8604 Helvetica": 0.95,
+                "Belgian 8△8602 Helvetica": 0.9,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 35,
+            "name": ":",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.45,
+                "Belgian 12△8605 Helvetica": 1.35,
+                "Belgian 10△8604 Helvetica": 1.1,
+                "Belgian 8△8602 Helvetica": 0.9,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 36,
+            "name": ";",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.5,
+                "Belgian 12△8605 Helvetica": 1.35,
+                "Belgian 10△8604 Helvetica": 1.1,
+                "Belgian 8△8602 Helvetica": 0.95,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 37,
+            "name": "?",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.0,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 38,
+            "name": "en space",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.9,
+                "Belgian 8△8602 Helvetica": 1.85,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 39,
+            "name": "(",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.75,
+                "Belgian 12△8605 Helvetica": 1.5,
+                "Belgian 10△8604 Helvetica": 1.25,
+                "Belgian 8△8602 Helvetica": 1.0,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 40,
+            "name": "è",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.85,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 41,
+            "name": "ê",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.85,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 42,
+            "name": "!",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.45,
+                "Belgian 12△8605 Helvetica": 1.35,
+                "Belgian 10△8604 Helvetica": 1.1,
+                "Belgian 8△8602 Helvetica": 0.9,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 43,
+            "name": "-",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.85,
+                "Belgian 12△8605 Helvetica": 1.5,
+                "Belgian 10△8604 Helvetica": 1.25,
+                "Belgian 8△8602 Helvetica": 1.0,
+                "Belgian 6△8600 Helvetica": 0.85
+            }
+        },
+        {
+            "nr": 44,
+            "name": "thin space",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.3,
+                "Belgian 12△8605 Helvetica": 1.15,
+                "Belgian 10△8604 Helvetica": 0.85,
+                "Belgian 8△8602 Helvetica": null,
+                "Belgian 6△8600 Helvetica": 0.65
+            }
+        },
+        {
+            "nr": 45,
+            "name": ")",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.75,
+                "Belgian 12△8605 Helvetica": 1.5,
+                "Belgian 10△8604 Helvetica": 1.25,
+                "Belgian 8△8602 Helvetica": 1.0,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 46,
+            "name": "à",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.8,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.3
+            }
+        },
+        {
+            "nr": 47,
+            "name": "'",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 1.35,
+                "Belgian 12△8605 Helvetica": 1.1,
+                "Belgian 10△8604 Helvetica": 0.95,
+                "Belgian 8△8602 Helvetica": 0.75,
+                "Belgian 6△8600 Helvetica": 0.7
+            }
+        },
+        {
+            "nr": 48,
+            "name": "<<",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 49,
+            "name": "1",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 50,
+            "name": "2",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 51,
+            "name": "3",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 52,
+            "name": "4",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 53,
+            "name": "5",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 54,
+            "name": ">>",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 55,
+            "name": "6",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 56,
+            "name": "7",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 57,
+            "name": "8",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 58,
+            "name": "9",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 59,
+            "name": "0",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.85,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.1
+            }
+        },
+        {
+            "nr": 60,
+            "name": "ù",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.85,
+                "Belgian 12△8605 Helvetica": 2.45,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.65,
+                "Belgian 6△8600 Helvetica": 1.35
+            }
+        },
+        {
+            "nr": 61,
+            "name": "E",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.25,
+                "Belgian 12△8605 Helvetica": 2.75,
+                "Belgian 10△8604 Helvetica": 2.3,
+                "Belgian 8△8602 Helvetica": 1.85,
+                "Belgian 6△8600 Helvetica": 1.55
+            }
+        },
+        {
+            "nr": 62,
+            "name": "L",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 63,
+            "name": "A",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.5,
+                "Belgian 12△8605 Helvetica": 2.95,
+                "Belgian 10△8604 Helvetica": 2.45,
+                "Belgian 8△8602 Helvetica": 1.95,
+                "Belgian 6△8600 Helvetica": 1.6
+            }
+        },
+        {
+            "nr": 64,
+            "name": "î",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.5,
+                "Belgian 12△8605 Helvetica": 1.25,
+                "Belgian 10△8604 Helvetica": 1.0,
+                "Belgian 8△8602 Helvetica": 0.85,
+                "Belgian 6△8600 Helvetica": 0.75
+            }
+        },
+        {
+            "nr": 65,
+            "name": "I",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.4,
+                "Belgian 12△8605 Helvetica": 1.25,
+                "Belgian 10△8604 Helvetica": 1.1,
+                "Belgian 8△8602 Helvetica": 0.9,
+                "Belgian 6△8600 Helvetica": 0.8
+            }
+        },
+        {
+            "nr": 66,
+            "name": "N",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.6,
+                "Belgian 12△8605 Helvetica": 3.1,
+                "Belgian 10△8604 Helvetica": 2.6,
+                "Belgian 8△8602 Helvetica": 2.05,
+                "Belgian 6△8600 Helvetica": 1.75
+            }
+        },
+        {
+            "nr": 67,
+            "name": "S",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.3,
+                "Belgian 12△8605 Helvetica": 2.8,
+                "Belgian 10△8604 Helvetica": 2.3,
+                "Belgian 8△8602 Helvetica": 1.85,
+                "Belgian 6△8600 Helvetica": 1.5
+            }
+        },
+        {
+            "nr": 68,
+            "name": "D",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.55,
+                "Belgian 12△8605 Helvetica": 3.05,
+                "Belgian 10△8604 Helvetica": 2.55,
+                "Belgian 8△8602 Helvetica": 2.05,
+                "Belgian 6△8600 Helvetica": 1.7
+            }
+        },
+        {
+            "nr": 69,
+            "name": "R",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.45,
+                "Belgian 12△8605 Helvetica": 2.95,
+                "Belgian 10△8604 Helvetica": 2.45,
+                "Belgian 8△8602 Helvetica": 2.0,
+                "Belgian 6△8600 Helvetica": 1.65
+            }
+        },
+        {
+            "nr": 70,
+            "name": "O",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.8,
+                "Belgian 12△8605 Helvetica": 3.3,
+                "Belgian 10△8604 Helvetica": 2.8,
+                "Belgian 8△8602 Helvetica": 2.2,
+                "Belgian 6△8600 Helvetica": 1.85
+            }
+        },
+        {
+            "nr": 71,
+            "name": "T",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.05,
+                "Belgian 12△8605 Helvetica": 2.6,
+                "Belgian 10△8604 Helvetica": 2.15,
+                "Belgian 8△8602 Helvetica": 1.75,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 72,
+            "name": "U",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.55,
+                "Belgian 12△8605 Helvetica": 3.05,
+                "Belgian 10△8604 Helvetica": 2.5,
+                "Belgian 8△8602 Helvetica": 2.1,
+                "Belgian 6△8600 Helvetica": 1.7
+            }
+        },
+        {
+            "nr": 73,
+            "name": "C",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.6,
+                "Belgian 12△8605 Helvetica": 3.1,
+                "Belgian 10△8604 Helvetica": 2.6,
+                "Belgian 8△8602 Helvetica": 2.05,
+                "Belgian 6△8600 Helvetica": 1.7
+            }
+        },
+        {
+            "nr": 74,
+            "name": "M",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 4.25,
+                "Belgian 12△8605 Helvetica": 3.6,
+                "Belgian 10△8604 Helvetica": 3.05,
+                "Belgian 8△8602 Helvetica": 2.45,
+                "Belgian 6△8600 Helvetica": 2.05
+            }
+        },
+        {
+            "nr": 75,
+            "name": "F",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 76,
+            "name": "H",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.55,
+                "Belgian 12△8605 Helvetica": 3.1,
+                "Belgian 10△8604 Helvetica": 2.2,
+                "Belgian 8△8602 Helvetica": 2.05,
+                "Belgian 6△8600 Helvetica": 1.75
+            }
+        },
+        {
+            "nr": 77,
+            "name": "Y",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.35,
+                "Belgian 12△8605 Helvetica": 2.85,
+                "Belgian 10△8604 Helvetica": 2.8,
+                "Belgian 8△8602 Helvetica": 1.85,
+                "Belgian 6△8600 Helvetica": 1.5
+            }
+        },
+        {
+            "nr": 78,
+            "name": "P",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.15,
+                "Belgian 12△8605 Helvetica": 2.8,
+                "Belgian 10△8604 Helvetica": 2.3,
+                "Belgian 8△8602 Helvetica": 1.85,
+                "Belgian 6△8600 Helvetica": 1.5
+            }
+        },
+        {
+            "nr": 79,
+            "name": "V",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.2,
+                "Belgian 12△8605 Helvetica": 2.8,
+                "Belgian 10△8604 Helvetica": 2.3,
+                "Belgian 8△8602 Helvetica": 1.85,
+                "Belgian 6△8600 Helvetica": 1.5
+            }
+        },
+        {
+            "nr": 80,
+            "name": "B",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.4,
+                "Belgian 12△8605 Helvetica": 2.95,
+                "Belgian 10△8604 Helvetica": 2.45,
+                "Belgian 8△8602 Helvetica": 2.0,
+                "Belgian 6△8600 Helvetica": 1.65
+            }
+        },
+        {
+            "nr": 81,
+            "name": "G",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.9,
+                "Belgian 12△8605 Helvetica": 3.35,
+                "Belgian 10△8604 Helvetica": 2.8,
+                "Belgian 8△8602 Helvetica": 2.2,
+                "Belgian 6△8600 Helvetica": 1.9
+            }
+        },
+        {
+            "nr": 82,
+            "name": "û",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.85,
+                "Belgian 12△8605 Helvetica": 2.45,
+                "Belgian 10△8604 Helvetica": 1.05,
+                "Belgian 8△8602 Helvetica": 1.65,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 83,
+            "name": "Q",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.85,
+                "Belgian 12△8605 Helvetica": 3.35,
+                "Belgian 10△8604 Helvetica": 2.75,
+                "Belgian 8△8602 Helvetica": 2.0,
+                "Belgian 6△8600 Helvetica": 1.85
+            }
+        },
+        {
+            "nr": 84,
+            "name": "J",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.6,
+                "Belgian 12△8605 Helvetica": 2.25,
+                "Belgian 10△8604 Helvetica": 1.9,
+                "Belgian 8△8602 Helvetica": 1.5,
+                "Belgian 6△8600 Helvetica": 1.2
+            }
+        },
+        {
+            "nr": 85,
+            "name": "X",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 3.3,
+                "Belgian 12△8605 Helvetica": 2.8,
+                "Belgian 10△8604 Helvetica": 2.3,
+                "Belgian 8△8602 Helvetica": 1.85,
+                "Belgian 6△8600 Helvetica": 1.5
+            }
+        },
+        {
+            "nr": 86,
+            "name": "â",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.8,
+                "Belgian 12△8605 Helvetica": 2.4,
+                "Belgian 10△8604 Helvetica": 2.0,
+                "Belgian 8△8602 Helvetica": 1.6,
+                "Belgian 6△8600 Helvetica": 1.25
+            }
+        },
+        {
+            "nr": 87,
+            "name": "ô",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.95,
+                "Belgian 12△8605 Helvetica": 2.5,
+                "Belgian 10△8604 Helvetica": 2.1,
+                "Belgian 8△8602 Helvetica": 1.7,
+                "Belgian 6△8600 Helvetica": 1.4
+            }
+        },
+        {
+            "nr": 88,
+            "name": "œ",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 4.5,
+                "Belgian 12△8605 Helvetica": 3.85,
+                "Belgian 10△8604 Helvetica": 3.2,
+                "Belgian 8△8602 Helvetica": 2.55,
+                "Belgian 6△8600 Helvetica": 2.15
+            }
+        },
+        {
+            "nr": 89,
+            "name": "W",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 4.6,
+                "Belgian 12△8605 Helvetica": 3.95,
+                "Belgian 10△8604 Helvetica": 3.25,
+                "Belgian 8△8602 Helvetica": 2.6,
+                "Belgian 6△8600 Helvetica": 2.15
+            }
+        },
+        {
+            "nr": 90,
+            "name": "—",
+            "thickness": {
+                "Belgian 14△8606 Helvetica": 2.65,
+                "Belgian 12△8605 Helvetica": 4.5,
+                "Belgian 10△8604 Helvetica": 3.75,
+                "Belgian 8△8602 Helvetica": 3.0,
+                "Belgian 6△8600 Helvetica": 2.25
+            }
+        }
+    ]
+}

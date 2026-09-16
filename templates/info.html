@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+
+
+{% set active_page = "info" %}
+
+
+
+{% block content %}
+
+
+
+<div class="page">
+
+	<script src="{{ url_for('static', filename='js/info.js') }}" defer></script>
+
+    <div class="page-toolbar">
+	    <a href="https://linotype.wiki" target="blank">
+			<button id="keyboard_save_options" class="redButton">
+				Linotype.wiki
+			</button>
+		</a>
+	    <!--
+		<button id="keyboard_save_options" class="redButton">
+			Close app
+		</button>
+		-->
+    </div>
+
+    <div class="page-content page-content-full info-content">
+
+        <h2>
+            The Linotype Computer Connection
+        </h2>
+		<p>v0.2</p>
+        <p>
+            Copyright 2021-2026 Maarten Renckens
+            (<a href="https://linotype.wiki" target="blank">Linotype.wiki</a>, <a href="mailto:info@maartenrenckens.com" target="blank">info@maartenrenckens.com</a>)
+        </p>
+
+        <p>
+            Distributed under the copyleft (Share-alike) licence. 
+            This means that the program can be adjusted and distributed 
+            under the same licence again.
+        </p>
+
+        <p>
+            When developing your own version, you are kindly requested to reference the original author(s).
+            But we welcome contributions. Contact us, so your input can become available for everyone. Thank you.
+        </p>
+
+        <h2>
+            Conversion tables
+        </h2>
+        
+        <p>1 Cicero = 4.511658124565 mm</p>
+        <p>1 inch = 25.4 mm</p>
+
+        <h2>
+            Updates
+        </h2>
+        
+        <p>No updates could be found.</p>
+
+    </div>
+
+
+
+</div>
+
+
+
+{% endblock %}

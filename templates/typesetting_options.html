@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+
+
+
+{% set active_page = "typesetting" %}
+
+
+
+{% block content %}
+
+
+
+<div class="page">
+
+	<script src="{{ url_for('static', filename='js/typesetting_options.js') }}" defer></script>
+
+    <div class="page-toolbar">
+		<button id="typesetting_save_options">
+			Save & next
+		</button>
+    </div>
+
+    <div class="page-content">
+        <div class="option-row">
+	        
+            <label
+                class="field-label"
+                for="typesetting_units"
+            >
+                The units I use:
+            </label>
+            
+			<select id="typesetting_units" name="typesetting_units">
+				<option value="cicero">Cisero</option>
+				<option value="inch">Inch</option>
+				<option value="mm" selected>Metrics (mm)</option>
+				<option value="other">other</option>
+			</select>
+			
+			<br><br><br>
+	        
+            <label
+                class="field-label"
+                for="line-length"
+            >
+                Line length:
+            </label>
+            
+			<input
+				class=""
+				type="text"
+				name="typesetting_line-length"
+				id="typesetting_line-length"
+			>
+
+<!-- 
+			<select id="typesetting_line-length" name="typesetting_line-length">
+				<option value="5.0">5.0 cisero</option>
+				<option value="5.5">5.5 cisero</option>
+				<option value="6.0">6.0 cisero</option>
+				<option value="6.5">6.5 cisero</option>
+				<option value="7.0">7.0 cisero</option>
+				<option value="7.5">7.5 cisero</option>
+				<option value="8.0" selected>8.0 cisero</option>
+				<option value="8.5">8.5 cisero</option>
+				<option value="9.0">9.0 cisero</option>
+				<option value="9.5">9.5 cisero</option>
+				<option value="10.0">10.0 cisero</option>
+				<option value="10.5">10.5 cisero</option>
+				<option value="11.0">11.0 cisero</option>
+				<option value="11.5">11.5 cisero</option>
+				<option value="12.0">12.0 cisero</option>
+				<option value="12.5">12.5 cisero</option>
+				<option value="13.0">13.0 cisero</option>
+				<option value="13.5">13.5 cisero</option>
+				<option value="14.0">14.0 cisero</option>
+				<option value="14.5">14.5 cisero</option>
+				<option value="15.0">15.0 cisero</option>
+				<option value="15.5">15.5 cisero</option>
+				<option value="16.0">16.0 cisero</option>
+				<option value="16.5">16.5 cisero</option>
+				<option value="17.0">17.0 cisero</option>
+				<option value="17.5">17.5 cisero</option>
+				<option value="18.0">18.0 cisero</option>
+				<option value="18.5">18.5 cisero</option>
+				<option value="19.0">19.0 cisero</option>
+				<option value="19.5">19.5 cisero</option>
+				<option value="20.0">20.0 cisero</option>
+				<option value="20.5">20.5 cisero</option>
+				<option value="21.0">21.0 cisero</option>
+				<option value="21.5">21.5 cisero</option>
+				<option value="22.0">22.0 cisero</option>
+				<option value="22.5">22.5 cisero</option>
+				<option value="23.0">23.0 cisero</option>
+				<option value="23.5">23.5 cisero</option>
+				<option value="24.0">24.0 cisero</option>
+				<option value="24.5">24.5 cisero</option>
+				<option value="25.0">25.0 cisero</option>
+				<option value="25.5">25.5 cisero</option>
+				<option value="26.0">26.0 cisero</option>
+				<option value="26.5">26.5 cisero</option>
+				<option value="27.0">27.0 cisero</option>
+				<option value="27.5">27.5 cisero</option>
+				<option value="28.0">28.0 cisero</option>
+			</select>
+-->
+
+            <br><br><br>
+            
+            <label
+                class="field-label"
+                for="line-length"
+            >
+                Link wedge space to: 
+            </label>
+
+			<select id="typesetting_wedge_space_options" name="typesetting_wedge_space_options">
+				<option value="nothing" selected>nothing</option>
+				<option value="thin space">a thin space</option>
+				<option value="en space">an en space</option>
+				<option value="em space">an em space</option>
+			</select>
+			
+			<p>NOTE: if using custom keyboard layouts, typing the exact names of the spaces is important!<br>
+			If not done properly, then the spacing system will not work.</p>
+            
+            <br><br><br>
+            
+            <p>Provide information about how much the line can expand (in cicero):</p>
+            
+            <label
+                class="field-label"
+                for="line-length"
+            >
+                Min width of your wedge spaces (probably 5/128" or 0,0390625"):
+            </label>
+            
+			<input
+				class=""
+				type="text"
+				name="wedge-space-minimum"
+				id="wedge-space-minimum"
+			>
+            
+            <label
+                class="field-label"
+                for="line-length"
+            >
+                Max width of your wedge spaces (14/128" or 0,109375"):
+            </label>
+            
+			<input
+				class=""
+				type="text"
+				name="wedge-space-maximum"
+				id="wedge-space-maximum"
+			>
+			
+        </div>
+    </div>
+</div>
+
+{% endblock %}

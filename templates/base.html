@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0"
+	>
+
+	<title>LiCo, the Linotype Computer Connection</title>
+
+	<link
+		rel="stylesheet"
+		href="{{ url_for('static', filename='css/interface.css') }}"
+	>
+	<link
+		rel="icon"
+		type="image/png"
+		href="{{ url_for('static', filename='images/favicon.png') }}"
+	>
+
+</head>
+
+
+
+<body>
+	<!-- Default scripts -->
+	<script src="{{ url_for('static', filename='js/base.js') }}"></script>
+	
+	<div class="positioner">
+		<div class="site-header">
+			
+			<div> <!--class="logo-container"-->
+			</div>
+			
+			<div class="tabs-container">
+	
+				<a
+					class="tab {% if active_page == 'info' %}tab-active{% endif %}"
+					href="{{ url_for('info_page') }}"
+				>
+					<img
+						class="site-logo"
+						src="{{ url_for('static', filename='images/logo.png') }}"
+						alt="Linotype Computer Connection"
+					>
+				</a>
+	
+	
+	
+				<a
+					class="tab {% if active_page == 'info' %}tab-active{% endif %}"
+					href="{{ url_for('info_page') }}"
+				>
+					LiCo
+				</a>
+	
+	
+	
+				<a
+					class="tab {% if active_page == 'input' %}tab-active{% endif %}"
+					href="{{ url_for('input_page') }}"
+				>
+					Input
+				</a>
+	
+	
+	
+				<a
+					class="tab {% if active_page == 'keyboard' %}tab-active{% endif %}"
+					href="{{ url_for('keyboard_options_page') }}"
+				>
+					Keyboard
+				</a>
+	
+	
+	
+				<a
+					class="tab {% if active_page == 'typesetting' %}tab-active{% endif %}"
+					href="{{ url_for('typesetting_options_page') }}"
+				>
+					Typesetting
+				</a>
+	
+	
+	
+				<a
+					class="tab {% if active_page == 'output' %}tab-active{% endif %}"
+					href="{{ url_for('output_page') }}"
+				>
+					Output
+				</a>
+	
+	
+	
+				<a
+					class="tab {% if active_page == 'progress' %}tab-active{% endif %}"
+					href="{{ url_for('progress_page') }}"
+				>
+					Progress
+				</a>
+	
+	
+	
+				<a
+					class="tab {% if active_page == 'info' %}tab-active{% endif %}"
+					href="{{ url_for('info_page') }}"
+				>
+					Info
+				</a>
+				
+			</div>
+		</div>
+	
+	
+	
+	
+	
+		<main class="page-container">
+	
+	
+	
+			{% block content %}
+	
+			{% endblock %}
+		
+		
+		
+		</main>
+		
+		
+		
+		<footer class="network-footer">
+			Want to access this interface from another computer on this network?
+			Enter <strong>{{ network_url }}</strong> in your browser.
+		</footer>
+	</div>
+</body>
+
+
+
+</html>

@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+
+
+{% set active_page = "keyboard" %}
+
+
+
+{% block content %}
+
+
+
+<div class="page">
+
+	<script src="{{ url_for('static', filename='js/keyboard_options.js') }}" defer></script>
+
+    <div class="page-toolbar">
+		<button id="keyboard_save_options">
+			Save & next
+		</button>
+    </div>
+
+    <div class="keyboard-settings">
+
+        <div class="keyboard-selector-container">
+            <label
+                class="field-label"
+                for="keyboard-layout"
+            >
+                Keyboard layout
+            </label>
+
+            <select
+                class="select-field"
+                id="keyboard-layout"
+                name="keyboard-layout"
+            >
+                <option value="last-loaded" selected>Last loaded layout</option>
+				<option value="Belgian 14△8606 Helvetica">Belgian 14△8606 Helvetica</option>
+				<option value="Belgian 12△8605 Helvetica">Belgian 12△8605 Helvetica</option>
+				<option value="Belgian 10△8604 Helvetica">Belgian 10△8604 Helvetica</option>
+				<option value="Belgian 8△8602 Helvetica">Belgian 8△8602 Helvetica</option>
+				<option value="Belgian 6△8600 Helvetica">Belgian 6△8600 Helvetica</option>
+            </select>
+
+        </div>
+
+        <div class="keyboard-information">
+            <a
+                class="information-link"
+                href="https://linotype.wiki/pages/linotype_keyboards"
+                target="_blank"
+            >
+                Check Maarten Renckens' keyboard layouts per country for more info.
+            </a>
+            <br><br><br><br>
+        </div>
+        
+    </div>
+
+    <div class="keyboard-table-container">
+        <table class="keyboard-table">
+            <thead>
+                <tr>
+                    <th>key</th> 
+                    <th>glyph</th>
+                    <th>width</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+					<td>0</td>
+					<td><p class="disabled_text">hand matrix</p></td>
+					<td><p class="disabled_text">unknown</p></td>
+	            </tr>
+	            
+                {% for key in range(1, 129) %}
+                <tr>
+                    <td class="key-number">
+                        {{ key }}
+                    </td>
+                    
+                    <td class="glyph-character">
+                        <input
+                            class="glyph-input"
+                            type="text"
+                            name="{{ key }}_glyph"
+                            id="{{ key }}_glyph"
+                        >
+                    </td>
+                    
+                    <td class="glyph-width">
+                        <input
+                            class="glyph-input"
+                            type="number"
+                            name="{{ key }}_width"
+                            id="{{ key }}_width"
+                        >
+	                </td>
+                </tr>
+                
+                {% endfor %}
+                
+                <tr>
+					<td>129</td>
+					<td><p class="disabled_text">wedge space</p></td>
+					<td><p class="disabled_text">variable</p></td>
+	            </tr>
+                
+                <tr>
+					<td>130</td>
+					<td><p class="disabled_text">send line (enter)</p></td>
+					<td><p class="disabled_text">—</p></td>
+	            </tr>
+                
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+
+{% endblock %}

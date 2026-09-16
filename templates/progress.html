@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+
+
+{% set active_page = "progress" %}
+
+
+
+{% block content %}
+
+
+
+<div class="page">
+
+	<script src="{{ url_for('static', filename='js/progress.js') }}" defer></script>
+
+    <div class="page-toolbar">
+		<button id="castingStopButton" class="redButton">
+			Stop casting
+		</button>
+    </div>
+    
+    <div>
+    	
+    </div>
+
+    <div class="page-content page-content-full">
+        <textarea
+            class="main-textarea"
+            id="progresstext"
+            placeholder="Once running, this field will display the progress of the casting. If this text is shown, the casting hasn't begun yet."
+            readonly
+        ></textarea>
+    </div>
+
+</div>
+
+{% endblock %}

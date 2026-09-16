@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+
+
+{% set active_page = "output" %}
+
+
+
+{% block content %}
+
+
+
+<div class="page">
+
+	<script src="{{ url_for('static', filename='js/output.js') }}" defer></script>
+
+    <div class="page-toolbar">
+		<button id="castingStartButton">
+			Start casting…
+		</button>
+    </div>
+
+    <div class="page-content page-content-full">
+        <textarea
+        	id="output" 
+            class="main-textarea second-textarea"
+            placeholder="We're generating a .Linotype file based on your input. Your final text will be shown here once ready."
+            readonly
+        ></textarea>
+        <textarea
+        	id="error_notices" 
+            class="main-textarea second-textarea"
+            placeholder="Errors will be shown here."
+            readonly
+        ></textarea>
+    </div>
+
+</div>
+
+{% endblock %}
