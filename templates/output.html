@@ -15,6 +15,12 @@
 	<script src="{{ url_for('static', filename='js/output.js') }}" defer></script>
 
     <div class="page-toolbar">
+		<button id="loadFileButton">
+			Load file…
+		</button>
+		<button id="saveFileButton">
+			Save file…
+		</button>
 		<button id="castingStartButton">
 			Start casting…
 		</button>
@@ -24,8 +30,7 @@
         <textarea
         	id="output" 
             class="main-textarea second-textarea"
-            placeholder="We're generating a .Linotype file based on your input. Your final text will be shown here once ready."
-            readonly
+            placeholder="One moment please… We're generating a .Linotype file based on your input. This can take a couple of minutes, depending on the length of your text. Your final text will be shown here once ready."
         ></textarea>
         <textarea
         	id="error_notices" 

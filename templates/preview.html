@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+
+
+{% set active_page = "preview" %}
+
+
+
+{% block content %}
+
+
+
+<div class="page">
+
+	<script src="{{ url_for('static', filename='js/preview.js') }}" defer></script>
+
+    <div class="page-toolbar">
+    </div>
+
+    <div class="page-content page-content-full">
+	    <div id="preview_box">
+		    
+		</div>
+    </div>
+
+</div>
+
+{% endblock %}

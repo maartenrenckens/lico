@@ -1,4 +1,7 @@
 {
-    "last_checked": "2026-09-16 09:42",
-    "latest_version": "1.0.1"
+    "update_available": false,
+    "current_version": "1.0.1",
+    "latest_version": "1.0.1",
+    "url": "https://github.com/maartenrenckens/lico/releases/tag/v1.0.1",
+    "checked_at": "2026-09-16T09:10:14.327720+00:00"
 }

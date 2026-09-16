@@ -95,6 +95,15 @@
 	
 	
 				<a
+					class="tab {% if active_page == 'preview' %}tab-active{% endif %}"
+					href="{{ url_for('preview_page') }}"
+				>
+					Preview
+				</a>
+	
+	
+	
+				<a
 					class="tab {% if active_page == 'progress' %}tab-active{% endif %}"
 					href="{{ url_for('progress_page') }}"
 				>

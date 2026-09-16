@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
         const data = await response.json();
 
+		console.log(data);
+
         if (data.update_available) {
 	        console.log("Update available");
 
@@ -53,7 +55,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 	        console.log("Other case");
 
             updateNotice.textContent =
-                "No updates could be found.";
+                "No updates were found.";
         }
 
     } catch (error) {

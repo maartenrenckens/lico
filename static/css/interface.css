@@ -38,7 +38,7 @@ a {
 
 .positioner {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     height: 100vh;
     margin: 0 auto;
 
@@ -215,6 +215,12 @@ textarea {
 	border-radius: 0;
 	outline: none;
 	padding: 18px 24px;
+}
+
+#preview_box {
+	border: 1px solid black;
+	width: 100%;
+	height: 100%;
 }
 
 .main-textarea {
@@ -422,10 +428,105 @@ textarea {
 }	
 
 /* =========================================================
+   PREVIEW
+   ========================================================= */
+
+#preview_box {
+    width: 100%;
+    overflow-x: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.preview-row {
+    display: flex;
+    align-items: stretch;
+    height: 90px;
+    margin-bottom: 12px;
+}
+
+.preview-instruction {
+    flex: 0 0 auto;
+    min-width: 24px;
+    height: 90px;
+    box-sizing: border-box;
+
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.preview-identifier {
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+    border-bottom: 1px solid black;
+}
+
+.preview-character {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+}
+
+.preview-width {
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 12px;
+    border-top: 1px solid black;
+}
+
+.preview-variable {
+    border: 2px solid red;
+}
+
+.preview-variable .preview-character {
+    font-weight: bold;
+}
+
+.preview-wedge_space {
+    width: 4em !important;
+    flex: 0 0 4em;
+    border: 2px solid red;
+}
+
+.preview-line_ending {
+    width: 4em !important;
+    flex: 0 0 4em;
+}
+
+/* =========================================================
    INFO
    ========================================================= */
 
+.info-container {
+    flex: 1;
+    min-height: 50px;
+
+    width: 100%;
+
+    overflow: auto;
+
+    padding: 2px 0px;
+}
+
 .info-content {
+    overflow-y: auto;
     max-width: 900px;
 
     font-size: 15px;
@@ -486,6 +587,9 @@ textarea {
     .progress-information {
         padding: 20px;
     }
-
+    
+    .network-footer {
+        padding: 20px;
+    }
 
 }
